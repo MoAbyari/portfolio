@@ -1,0 +1,46 @@
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.projectCard{
+    display: flex;
+    background: white;
+    color:black;
+    margin-right: 20px;
+    padding: 41px 29px;
+    border-radius: 20px;
+}
+.projectInfo{
+    flex: 1;
+}
+.imageContainer{
+    /* max-width: 100px; */
+    border-radius: 20px;
+    overflow: hidden;
+    width: 215px;
+    /* background: radial-gradient(black, transparent); */
+    background: red;
+    margin-left: 15px;
+
+    
+}
+
+.imageContainer img{
+    max-width: 100%;  
+}
+
+.topCards{
+    margin-bottom: 27px;
+    display: flex;
+}
+.bottomCards{
+    margin-bottom: 27px;
+    display: flex;
+}
+

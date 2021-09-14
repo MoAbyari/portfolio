@@ -1,5 +1,10 @@
 .header {
    background-color: transparent;
+       position: fixed;
+    left: 0;
+    right: 0;
+    background: #131315;
+    z-index: 4;
 }
 
 .nav{
@@ -16,9 +21,11 @@
     
 }
 
-.navlist a {
+.navlist button {
     padding: 20px;
     display: block;
     color: white;
-
+    background: none;
+    border: 0;
+    margin: 0 10px;
 }
