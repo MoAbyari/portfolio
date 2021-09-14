@@ -1,6 +1,9 @@
+import style from "./style.module.css";
+
 const Projects = () => {
+
     return (
-        <div>
+        <div className = {style.container}>
             projects
         </div>
     )

@@ -1,0 +1,24 @@
+.header {
+   background-color: transparent;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1000px;
+    margin: 0 auto;
+   
+}
+
+.navlist{
+    display: flex;
+    list-style: none;
+    
+}
+
+.navlist a {
+    padding: 20px;
+    display: block;
+    color: white;
+
+}
