@@ -153,19 +153,12 @@
    position: relative;
 }
 
-.contactMeSection {
-   background-image: url("/back.png");
-   min-height: 900px;
-   background-size: 100% 100%;
-   margin-top: 0px;
-}
-
 .prjectSection::after {
   position: absolute;
     content: '';
     left: 0;
     right: 0;
-    bottom: -25vh;
+    bottom: -10vh;
     height: 100vh;
     background: rgba(240, 177, 54, 0.62);
     mix-blend-mode: color-dodge;
@@ -173,6 +166,14 @@
     border-radius: 50%;
     z-index: 0;
 }
+
+.contactMeSection {
+   background-image: url("/back.png");
+   min-height: 900px;
+   background-size: 100% 100%;
+   margin-top: 0px;
+}
+
 
 
 
