@@ -10,7 +10,7 @@ export const Contact = () => {
                 CONTACT ME
             </h1>
             <p>
-                mo.abyari88@gmail.com
+                abyari.tech@gmail.com
             </p>
             <div className={styles.icons}>
                 <div className= {styles.icon}> 

@@ -1,6 +1,6 @@
 import style from './style.module.css';
 import Project from './Project';
-
+import { SiJquery, SiHtml5} from 'react-icons/si';
 
 export const Projects = (props) => {
     return (
@@ -12,12 +12,12 @@ export const Projects = (props) => {
            </div>
            <div className= {style.projectsContainer}>
                 <div className= {style.topCards}>
-                    <Project title='CovidInfo 1' img="/covid.png" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem modi unde obcaecati! Ad repellat quaerat nihil voluptatibus officiis a, perspiciatis, dolor voluptates facilis ex explicabo distinctio, molestias consequuntur eveniet!" />
-                    <Project title='CovidInfo 2' img="/covid.png" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem modi unde obcaecati! Ad repellat quaerat nihil voluptatibus officiis a, perspiciatis, dolor voluptates facilis ex explicabo distinctio, molestias consequuntur eveniet!"/>
+                    <Project title="Tic Tac Toe" schedule="3 July - 8 July" img="/Tik Tak Toe.png" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem modi unde obcaecati! Ad repellat quaerat nihil voluptatibus officiis a, perspiciatis, dolor voluptates facilis ex explicabo distinctio, molestias consequuntur eveniet!" />
+                    <Project title='SamplEast' img="/covid.png" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem modi unde obcaecati! Ad repellat quaerat nihil voluptatibus officiis a, perspiciatis, dolor voluptates facilis ex explicabo distinctio, molestias consequuntur eveniet!"/>
                 </div>
                 <div className={style.bottomCards}>
-                    <Project title='CovidInfo 3' img="/covid.png" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem modi unde obcaecati! Ad repellat quaerat nihil voluptatibus officiis a, perspiciatis, dolor voluptates facilis ex explicabo distinctio, molestias consequuntur eveniet!"/>
-                    <Project title='CovidInfo 4' img="/covid.png" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem modi unde obcaecati! Ad repellat quaerat nihil voluptatibus officiis a, perspiciatis, dolor voluptates facilis ex explicabo distinctio, molestias consequuntur eveniet!"/>
+                    <Project title="Sweat & Sweat" img="/covid.png" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem modi unde obcaecati! Ad repellat quaerat nihil voluptatibus officiis a, perspiciatis, dolor voluptates facilis ex explicabo distinctio, molestias consequuntur eveniet!"/>
+                    <Project title="CovInfo" img="/covid.png" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem modi unde obcaecati! Ad repellat quaerat nihil voluptatibus officiis a, perspiciatis, dolor voluptates facilis ex explicabo distinctio, molestias consequuntur eveniet!"/>
                 </div>
            </div>
         </div>

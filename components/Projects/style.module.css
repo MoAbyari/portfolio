@@ -15,7 +15,7 @@
     background: white;
     color:black;
     margin-right: 20px;
-    padding: 41px 29px;
+    padding: 41px 41px;
     border-radius: 20px;
     z-index: 2;
 }
@@ -24,16 +24,13 @@
 }
 .imageContainer{
     border-radius: 20px;
-    overflow: hidden;
-    width: 150px;
-    background: red;
+    /* overflow: hidden; */
+    width: 200px;
     margin-left: 15px;
-
-    
 }
 
 .imageContainer img{
-    max-width: 100%;  
+    max-width: 100%; 
 }
 
 .topCards{

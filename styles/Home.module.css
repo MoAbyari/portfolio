@@ -17,12 +17,6 @@
 }
 
 
-
-
-/*
-  Stars animation and classes
-*/
-
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
@@ -113,6 +107,36 @@
   margin: 0 auto;
 }
 
+.prjectSection {
+   background-image: url("/back.png");
+   min-height: 900px;
+   background-size: 100% 100%;
+   margin-top: 0px;
+   position: relative;
+}
+
+.prjectSection::after {
+  position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: -10vh;
+    height: 120vh;
+    background: red;
+    background: rgba(240, 177, 54, 0.62);
+    mix-blend-mode: color-dodge;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.aboutMeSection {
+   background-image: url("/back.png");
+   min-height: 900px;
+   background-size: 100% 100%;
+   margin-top: 0px;
+}
+
 .aboutContent {
   color: white;
   max-width: 1200px;
@@ -131,7 +155,7 @@
 .description{
   padding: 30px 50px;
   width: 836px;
-  height: 400px;
+  height: 500px;
   top: 193px;
   margin: 0 auto;
   background: #E4E4E4;
@@ -145,31 +169,9 @@
   text-align: center;
 }
 
-.prjectSection {
-   background-image: url("/back.png");
-   min-height: 900px;
-   background-size: 100% 100%;
-   margin-top: 0px;
-   position: relative;
-}
-
-.prjectSection::after {
-  position: absolute;
-    content: '';
-    left: 0;
-    right: 0;
-    bottom: -10vh;
-    height: 100vh;
-    background: rgba(240, 177, 54, 0.62);
-    mix-blend-mode: color-dodge;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    border-radius: 50%;
-    z-index: 0;
-}
-
 .contactMeSection {
    background-image: url("/back.png");
-   min-height: 900px;
+   min-height: 600px;
    background-size: 100% 100%;
    margin-top: 0px;
 }
