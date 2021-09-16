@@ -9,9 +9,6 @@ export const Contact = () => {
             <h1>
                 CONTACT ME
             </h1>
-            <p>
-                abyari.tech@gmail.com
-            </p>
             <div className={styles.icons}>
                 <div className= {styles.icon}> 
                     <a 

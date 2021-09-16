@@ -109,7 +109,7 @@
 
 .prjectSection {
    background-image: url("/back.png");
-   min-height: 900px;
+   min-height: 1100px;
    background-size: 100% 100%;
    margin-top: 0px;
    position: relative;
@@ -121,7 +121,7 @@
     left: 0;
     right: 0;
     bottom: -10vh;
-    height: 120vh;
+    height: 140vh;
     background: red;
     background: rgba(240, 177, 54, 0.62);
     mix-blend-mode: color-dodge;
@@ -171,7 +171,7 @@
 
 .contactMeSection {
    background-image: url("/back.png");
-   min-height: 600px;
+   min-height: 450px;
    background-size: 100% 100%;
    margin-top: 0px;
 }
