@@ -6,10 +6,7 @@ export const Contact = () => {
 
     return (
         <div className={styles.contactInfo}>
-            <h1 id="contactMe">
-                CONTACT ME
-            </h1>
-            <div className={styles.icons}>
+            <div className={styles.icons} id="contactMe">
                 <div className= {styles.icon}> 
                     <a 
                      target="blank"
