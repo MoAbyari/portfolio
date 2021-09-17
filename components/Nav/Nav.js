@@ -1,4 +1,7 @@
 import style from "./style.module.css";
+import { IoIosPerson, IoIosDocument } from 'react-icons/io';
+import { AiOutlineAppstore } from 'react-icons/ai';
+
 
 const Nav = () => {
     const scrollToAbout = () => {
@@ -11,9 +14,10 @@ const Nav = () => {
         <header className= {style.header}>
             <nav className= {style.nav}>
                 <ul className= {style.navlist}>
-                    <li><button onClick={scrollToAbout}>About</button></li>
-                    <li><button onClick={scrollToProjects}>Projects</button></li>
-                    <li><button>Resume</button></li>
+                    
+                    <li><button onClick={scrollToAbout}> <IoIosPerson size={18} color={'#ffffffba'} />  About</button></li>
+                    <li><button onClick={scrollToProjects}> <AiOutlineAppstore size={15} />  Projects</button></li>
+                    <li><button> <IoIosDocument size={18} color={'#ffffffba'} />  Resume</button></li>
                 </ul>
             </nav>
         </header>

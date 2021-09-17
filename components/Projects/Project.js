@@ -1,6 +1,6 @@
 import style from './style.module.css';
 import { FiGithub } from 'react-icons/fi';
-import { CgClapperBoard } from 'react-icons/cg';
+import { CgLink } from 'react-icons/cg';
 
 export const Project = (props) => {
     const {
@@ -14,26 +14,8 @@ export const Project = (props) => {
         href2
     } = props
     return (
-        // <div className={style.projectCard}>
-        //     <div className={style.projectInfo}>
-        //         <h2>
-        //             {title}
-        //         </h2>
-        //         <span>
-        //             {schedule}
-        //         </span>
-        //         <p>
-        //             {description}
-        //         </p>
-        //     </div>
-        //     <div className={style.imageContainer}>
-        //         <img src={img}/>
-        //         <p>
-        //             {tech}
-        //         </p>
-        //     </div>
-        // </div>
-        <div className={style.projectCard} >
+        
+        <div className={style.projectCard} id="projects">
             <div className={style.projectInfo} >
                 <div className={style.projectDetails} >
                     <h2>
@@ -58,14 +40,17 @@ export const Project = (props) => {
                             <a
                                 target="blank"
                                 href={href1}>
-                                <FiGithub size={50} color={'black'} />
+                                <FiGithub size={30} color={'#ffffffba'} />
+                                <p> GitHub </p>
                             </a>
+                            
                         </div>
                         <div className={style.projectDemo}>
                             <a
                                 target="blank"
                                 href={href2}>
-                                <CgClapperBoard size={50} color={'black'} />
+                                <CgLink size={30} color={'#ffffffba'} />
+                                <p> Demo </p>
                             </a>
                         </div>
                     </div>

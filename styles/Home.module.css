@@ -1,8 +1,8 @@
 
-
 .homeSections {
   position: relative;
   min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -113,6 +113,7 @@
    background-size: 100% 100%;
    margin-top: 0px;
    position: relative;
+   font-family: 'Roboto', sans-serif;
 }
 
 .prjectSection::after {
@@ -123,11 +124,18 @@
     bottom: -10vh;
     height: 140vh;
     background: red;
-    background: rgba(240, 177, 54, 0.62);
+    background: rgba(240, 181, 63, 0.62);
+    animation: changecolor 1s infinite;
+    animation-direction: alternate;
     mix-blend-mode: color-dodge;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     z-index: 0;
+}
+
+@keyframes changecolor {
+  from {background:rgba(240, 181, 63, 0.62); }
+  to {background: rgba(240, 178, 54, 0.40); }
 }
 
 .aboutMeSection {
@@ -135,6 +143,7 @@
    min-height: 900px;
    background-size: 100% 100%;
    margin-top: 0px;
+   font-family: 'Roboto', sans-serif;
 }
 
 .aboutContent {
@@ -155,25 +164,28 @@
 .description{
   padding: 30px 50px;
   width: 836px;
-  height: 500px;
+  height: 600px;
   top: 193px;
   margin: 0 auto;
-  background: #E4E4E4;
+  background: #030510;;
   border-radius: 20px;
   z-index: 3;
 }
 
 .description p {
-  color: #000;
+  color: rgb(255 255 255 / 75%);
   line-height: 30px;
   text-align: center;
+  font-size: 20px;
 }
 
 .contactMeSection {
+   font-family: 'Roboto', sans-serif;
    background-image: url("/back.png");
-   min-height: 450px;
+   min-height: 600px;
    background-size: 100% 100%;
    margin-top: 0px;
+   
 }
 
 

@@ -18,6 +18,14 @@
     text-align: center;
     padding-top: 50px;
 }
+
+.contactInfo footer{
+    margin-top: 40px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 50px;
+}
 .icons{
     display: flex;
     max-width: 500px;
@@ -32,7 +40,7 @@
     justify-content: center;
     width: 80px;
     height: 80px;
-    border: 1px solid transparenta;
-    background-color: rgba(255, 255, 255, 0.5) ;
+    border: 1px solid transparent;
+    background-color: rgb(3 5 16 / 68%);
     border-radius: 50%;
 }

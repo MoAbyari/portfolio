@@ -1,9 +1,9 @@
 .header {
-   background-color: transparent;
-       position: fixed;
+    background-color: transparent;
+    position: fixed;
     left: 0;
     right: 0;
-    background: #131315;
+    background: #000000;
     z-index: 4;
 }
 
@@ -28,4 +28,7 @@
     background: none;
     border: 0;
     margin: 0 10px;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
 }
