@@ -59,9 +59,9 @@ export const Project = (props) => {
 
             <div className= {style.imageDiv}>
                 <div className={style.imageContainer}>
-                    <img src={img2}  class= {style.imgBack}/>
+                    <img src={img2} className= {style.imgBack}/>
 
-                    <img src={img1}  class= {style.imgFront}/>
+                    <img src={img1} className= {style.imgFront}/>
                 </div>
             </div>
 
