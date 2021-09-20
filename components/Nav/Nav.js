@@ -13,11 +13,10 @@ const Nav = () => {
     return (
         <header className= {style.header}>
             <nav className= {style.nav}>
-                <ul className= {style.navlist}>
-                    
-                    <li><button onClick={scrollToAbout}> <IoIosPerson size={18} color={'#ffffffba'} />  About</button></li>
+                <ul className= {style.navlist}>   
+                    <li><button onClick={scrollToAbout}> <IoIosPerson size={18}/>  About</button></li>
                     <li><button onClick={scrollToProjects}> <AiOutlineAppstore size={15} />  Projects</button></li>
-                    <li><button> <IoIosDocument size={18} color={'#ffffffba'} />  Resume</button></li>
+                    <li><button> <IoIosDocument size={18}/>  Resume</button></li>
                 </ul>
             </nav>
         </header>
