@@ -32,11 +32,13 @@
 
 .projectGitDemo {
     display: flex;
+    /* justify-content: space-evenly; */
     
 }
 
 .projectGit {
     display: flex;
+    margin-right: 1rem;
     align-items: center;
     justify-content: center;
     border: 0.1px solid #ffffffba;
@@ -69,8 +71,7 @@
 .projectDemo{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 1px auto;
+    justify-content: flex-start;
     border: 0.1px solid #ffffffba;
     border-radius: 20px;
     width: 120px; 
@@ -165,6 +166,27 @@
         flex-flow: row wrap;
         padding: 0rem 1rem 1rem 1rem;
         margin-bottom: 0rem;
+    }
+
+    .projectGitDemo {
+        display: flex;
+        max-width: 90%;
+        margin: 0;
+        
+    
+    }
+    .projectGit {
+        margin-right: 1rem;
+    }
+
+    .projectDemo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        border: 0.1px solid #ffffffba;
+        border-radius: 20px;
+        width: 120px; 
     }
 
 
