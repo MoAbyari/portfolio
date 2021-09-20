@@ -11,19 +11,19 @@ export const Contact = () => {
                     <a 
                      target="blank"
                     href="https://www.linkedin.com/in/mo-abyari/">
-                        <FiLinkedin size={50} color={'#ffffffd9'} />
+                        <FiLinkedin className={styles.iconSVG} />
                     </a> 
                 </div>
                 <div className={styles.icon}> 
                     <a 
                     target="blank"
                     href="https://github.com/MoAbyari">
-                        <FiGithub size={50} color={' #ffffffd9'} />
+                        <FiGithub className={styles.iconSVG}  />
                     </a>
                 </div>
                 <div className={styles.icon}> 
                     <a href="mailto:abyari.tech@gmail.com">
-                        <HiOutlineMail size={56} color={' #ffffffd9'} />
+                        <HiOutlineMail className={styles.iconSVG} />
                     </a>
                 </div>
             </div>

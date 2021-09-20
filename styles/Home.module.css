@@ -206,6 +206,14 @@
       margin-top: 0px;
     }
 
+    .contactMeSection {
+      font-family: 'Roboto', sans-serif;
+      background-image: url("/back.png");
+      min-height: 350px;
+      background-size: 100% 100%;
+      margin-top: 0px; 
+    }
+
 }
 
 
