@@ -1,4 +1,3 @@
-
 .homeSections {
   position: relative;
   min-height: 100vh;
@@ -91,14 +90,26 @@
 .info h1 {
   font-size: 64px;
   margin-bottom: 10px;
+  text-align: center;
+  
 }
 
 .info h2{
   font-size: 32px;
+  text-align: center;
 }
 
 .hello {
   font-size: 100px !important;
+}
+
+.prjectSection {
+  background-image: url("/back.png");
+  min-height: 130vh;
+  background-size: 100% 100%;
+  margin-top: 0px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
 }
 
 .projectsContent {
@@ -107,21 +118,13 @@
   margin: 0 auto;
 }
 
-.prjectSection {
-  background-image: url("/back.png");
-  min-height: 1100px;
-  background-size: 100% 100%;
-  margin-top: 0px;
-  position: relative;
-  font-family: 'Roboto', sans-serif;
-}
 
 .prjectSection::after {
   position: absolute;
   content: '';
   left: 0;
   right: 0;
-  bottom: -10vh;
+  bottom: 6vh;
   height: 120vh;
   background: red;
   background: rgba(240, 181, 63, 0.62);
@@ -140,7 +143,7 @@
 
 .aboutMeSection {
   background-image: url("/back.png");
-  min-height: 900px;
+  min-height: 100vh;
   background-size: 100% 100%;
   margin-top: 0px;
   font-family: 'Roboto', sans-serif;
@@ -188,7 +191,31 @@
 }
 
 
+@media screen and (max-width: 922px) {
 
+    .description{
+      padding: 2rem 3rem;
+      width: 90vw;
+      height: 80vh;
+      top: 193px;
+      margin: 0 auto;
+      background: #030510;;
+      border-radius: 20px;
+      z-index: 3;
+    }
+
+    .prjectSection {
+      min-height: 140vh;
+    }
+
+    .aboutMeSection {
+      background-image: url("/back.png");
+      min-height: 120vh;
+      background-size: 100% 100%;
+      margin-top: 0px;
+    }
+
+}
 
 
 

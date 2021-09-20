@@ -49,7 +49,7 @@ export const Project = (props) => {
                             <a
                                 target="blank"
                                 href={href2}>
-                                <CgLink size={30} color={'#ffffffba'} />
+                                <CgLink size={33} color={'#ffffffba'} />
                                 <p> Demo </p>
                             </a>
                         </div>

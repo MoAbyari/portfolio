@@ -48,7 +48,7 @@ export const Projects = (props) => {
                   
                     <Project 
                         title="CovInfo" 
-                        schedule= ""
+                        schedule= "4 September - 10 September"
                         img1="/Cov1.png"
                         img2="/Cov2.png"
                         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem modi unde obcaecati! Ad repellat quaerat nihil voluptatibus officiis a, perspiciatis, dolor voluptates facilis ex explicabo distinctio, molestias consequuntur eveniet!"
