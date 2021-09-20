@@ -167,8 +167,6 @@
 .description{
   padding: 30px 50px;
   width: 836px;
-  height: 600px;
-  top: 193px;
   margin: 0 auto;
   background: #030510;;
   border-radius: 20px;
@@ -196,21 +194,14 @@
     .description{
       padding: 2rem 3rem;
       width: 90vw;
-      height: 80vh;
-      top: 193px;
       margin: 0 auto;
       background: #030510;;
       border-radius: 20px;
       z-index: 3;
     }
 
-    .prjectSection {
-      min-height: 140vh;
-    }
-
     .aboutMeSection {
       background-image: url("/back.png");
-      min-height: 120vh;
       background-size: 100% 100%;
       margin-top: 0px;
     }

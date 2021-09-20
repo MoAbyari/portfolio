@@ -12,6 +12,7 @@
     padding: 30px 30px;
     border-radius: 20px;
     z-index: 2;
+    flex:1;
 }
 
 .projectInfo {
@@ -148,6 +149,25 @@
 }
 
 
+/* .projectTechName {
+    height: 200px;
+} */
+
+@media screen and (max-width: 720px) {
+
+    .projectCard{
+        flex-direction: column-reverse;
+    }
+
+    .topCards {
+        padding: 0;
+    }
+
+    .bottomCards {
+        padding:0;
+    }
+}
+
 @media screen and (max-width: 1055px) {
 
     .projectCard{
@@ -172,9 +192,8 @@
         display: flex;
         max-width: 90%;
         margin: 0;
-        
-    
     }
+
     .projectGit {
         margin-right: 1rem;
     }
@@ -191,6 +210,7 @@
 
 
 }
+
 
       
       
