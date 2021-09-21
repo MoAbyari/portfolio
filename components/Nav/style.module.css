@@ -40,10 +40,21 @@
 
 
 
-@media screen and (max-width: 922px) {
+@media screen and (max-width: 600px) {
 
     .header nav{
       justify-content: center;
     }
 
+    .navlist button {
+        padding: 13px;
+        margin: 0 8px;
+        font-size: 15px;
+    }
+
+    .icon1 {
+        width: 1em;
+        height: 1em;
+        margin-right: 3px;
+    }
 }

@@ -14,9 +14,9 @@ const Nav = () => {
         <header className= {style.header}>
             <nav className= {style.nav}>
                 <ul className= {style.navlist}>   
-                    <li><button onClick={scrollToAbout}> <IoIosPerson size={18}/>  About</button></li>
+                    <li><button onClick={scrollToAbout}> <IoIosPerson className={style.icon1} />  About</button></li>
                     <li><button onClick={scrollToProjects}> <AiOutlineAppstore size={15} />  Projects</button></li>
-                    <li><button> <IoIosDocument size={18}/>  Resume</button></li>
+                    <li><button> <IoIosDocument className={style.icon1} />  Resume</button></li>
                 </ul>
             </nav>
         </header>

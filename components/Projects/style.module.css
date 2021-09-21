@@ -19,10 +19,11 @@
     display: flex;
     flex-direction: column;
 }
+
 .title{
     margin-top: 0;
     text-align: center;
-    font-size: 50px;
+    font-size: 3.3rem;
     font-weight: bold;
     padding-top: 100px;
 }
@@ -153,51 +154,41 @@
     height: 200px;
 } */
 
-@media screen and (max-width: 720px) {
 
-    .projectCard{
-        flex-direction: column-reverse;
+@media screen and (max-width: 1102px) {
+    
+    .title {
+        font-size: 2.4rem;
     }
-
-    .topCards {
-        padding: 0;
-    }
-
-    .bottomCards {
-        padding:0;
-    }
-}
-
-@media screen and (max-width: 1055px) {
 
     .projectCard{
         margin: 1rem 1rem 0rem 1rem;
     }
-
+    
     .topCards{
         display: flex;
         flex-flow: row wrap;
         padding: 0rem 1rem 0rem 1rem;
         margin-bottom: 0rem;
     }
-
+    
     .bottomCards{
         display: flex;
         flex-flow: row wrap;
         padding: 0rem 1rem 1rem 1rem;
         margin-bottom: 0rem;
     }
-
+    
     .projectGitDemo {
         display: flex;
         max-width: 90%;
         margin: 0;
     }
-
+    
     .projectGit {
         margin-right: 1rem;
     }
-
+    
     .projectDemo{
         display: flex;
         align-items: center;
@@ -207,10 +198,32 @@
         border-radius: 20px;
         width: 120px; 
     }
-
-
+    
+    
 }
 
+@media screen and (max-width: 720px) {
 
-      
-      
+    .projectCard{
+        flex-direction: column-reverse;
+        padding: 20px 15px;
+    }
+
+    .topCards {
+        padding: 0;
+    }
+
+    .bottomCards {
+        padding:0;
+    }
+    .imageDiv{
+        align-self: center;
+    }
+
+    .projectGitDemo {
+        display: flex;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+

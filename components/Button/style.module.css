@@ -31,3 +31,15 @@
       transform: translate3d(4px, 0, 0);
     }
 }
+
+
+@media screen and (max-width: 550px) {
+
+  .button {
+    padding: 12px 25px;
+    min-width: 110px;
+    font-size: 1.1rem;
+    margin-top: 55px;
+  }
+
+}

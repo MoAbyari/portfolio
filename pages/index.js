@@ -20,14 +20,14 @@ export default function Home() {
         <div className={styles.background}>
           <div className={styles.content}>
             <div className={styles.info}>
-              <h1 className= {styles.hello}>
+              {/* <h1 className= {styles.hello}>
                 HELLO
-              </h1>
+              </h1> */}
               <h1>
-                I’M MO ABYARI
+                MO ABYARI
               </h1>
               <h2>
-                Sydney based software engineer
+                A Sydney based electrical and software engineer, and project manager with a passion for developing reliable, efficient and user-friendly products.
               </h2>
               <Button text="GET IN TOUCH" onClick={scrollToContact}/>
             </div>

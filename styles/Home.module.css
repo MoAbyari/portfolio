@@ -88,20 +88,20 @@
 }
 
 .info h1 {
-  font-size: 64px;
-  margin-bottom: 10px;
-  text-align: center;
-  
+    font-size: 90px;
+    margin-bottom: 5rem;
+    text-align: center;
 }
+
 
 .info h2{
-  font-size: 32px;
+  font-size: 1.5rem;
   text-align: center;
 }
 
-.hello {
+/* .hello {
   font-size: 100px !important;
-}
+} */
 
 .prjectSection {
   background-image: url("/back.png");
@@ -143,7 +143,6 @@
 
 .aboutMeSection {
   background-image: url("/back.png");
-  min-height: 100vh;
   background-size: 100% 100%;
   margin-top: 0px;
   font-family: 'Roboto', sans-serif;
@@ -165,7 +164,7 @@
 }
 
 .description{
-  padding: 30px 50px;
+  padding: 20px 30px;
   width: 836px;
   margin: 0 auto;
   background: #030510;;
@@ -183,36 +182,69 @@
 .contactMeSection {
    font-family: 'Roboto', sans-serif;
    background-image: url("/back.png");
-   min-height: 500px;
+   min-height: 418px;
    background-size: 100% 100%;
    margin-top: 0px; 
 }
 
+@media screen and (max-width: 1102px) {
+    
+  .aboutContent h1  {
+      font-size: 2.4rem;
+  }
+}
 
 @media screen and (max-width: 922px) {
 
-    .description{
-      padding: 2rem 3rem;
-      width: 90vw;
-      margin: 0 auto;
-      background: #030510;;
-      border-radius: 20px;
-      z-index: 3;
-    }
+  .description{
+    padding: 2rem 3rem;
+    width: 90vw;
+    margin: 0 auto;
+    background: #030510;;
+    border-radius: 20px;
+    z-index: 3;
+  }
 
-    .aboutMeSection {
-      background-image: url("/back.png");
-      background-size: 100% 100%;
-      margin-top: 0px;
-    }
+  .aboutMeSection {
+    background-image: url("/back.png");
+    background-size: 100% 100%;
+    margin-top: 0px;
+  }
 
-    .contactMeSection {
-      font-family: 'Roboto', sans-serif;
-      background-image: url("/back.png");
-      min-height: 350px;
-      background-size: 100% 100%;
-      margin-top: 0px; 
-    }
+  .contactMeSection {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("/back.png");
+    min-height: 350px;
+    background-size: 100% 100%;
+    margin-top: 0px; 
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+  .info h1 {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  .info h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .description {
+    padding: 0.8rem;
+  }
+
+  .description p {
+    line-height: 1.2rem;
+    font-size: 1rem;
+  }
 
 }
 
