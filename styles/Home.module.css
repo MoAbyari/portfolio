@@ -1,7 +1,6 @@
 .homeSections {
   position: relative;
   min-height: 100vh;
-  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -93,15 +92,10 @@
     text-align: center;
 }
 
-
 .info h2{
   font-size: 1.5rem;
   text-align: center;
 }
-
-/* .hello {
-  font-size: 100px !important;
-} */
 
 .prjectSection {
   background-image: url("/back.png");
@@ -109,7 +103,6 @@
   background-size: 100% 100%;
   margin-top: 0px;
   position: relative;
-  font-family: 'Roboto', sans-serif;
 }
 
 .projectsContent {
@@ -145,7 +138,6 @@
   background-image: url("/back.png");
   background-size: 100% 100%;
   margin-top: 0px;
-  font-family: 'Roboto', sans-serif;
 }
 
 .aboutContent {
@@ -180,7 +172,6 @@
 }
 
 .contactMeSection {
-   font-family: 'Roboto', sans-serif;
    background-image: url("/back.png");
    min-height: 418px;
    background-size: 100% 100%;
@@ -189,6 +180,10 @@
 
 @media screen and (max-width: 1102px) {
     
+  .info {
+    width: 70vw;
+  }
+
   .aboutContent h1  {
       font-size: 2.4rem;
   }
@@ -212,7 +207,6 @@
   }
 
   .contactMeSection {
-    font-family: 'Roboto', sans-serif;
     background-image: url("/back.png");
     min-height: 350px;
     background-size: 100% 100%;
@@ -226,14 +220,18 @@
 
 @media screen and (max-width: 550px) {
 
+  .info{
+    width: 80vw;
+  }
+
   .info h1 {
-    font-size: 5rem;
+    font-size: 4.8rem;
     margin-bottom: 5rem;
     text-align: center;
   }
 
   .info h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-align: center;
   }
 

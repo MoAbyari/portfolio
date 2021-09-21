@@ -18,7 +18,6 @@
 .navlist{
     display: flex;
     list-style: none;
-    
 }
 
 .navlist button {
@@ -44,6 +43,12 @@
 
     .header nav{
       justify-content: center;
+    }
+
+    .navlist{
+        display: flex;
+        list-style: none;
+        padding: 0px;
     }
 
     .navlist button {
