@@ -1,36 +1,38 @@
 .button {
   padding: 20px 40px;
-    min-width: 150px;
-    background: #f0b136d1;
-    font-weight: 600;
-    color: white;
-    border: 0;
-    font-size: 24px;
-    border-radius: 8px;
-    margin-top: 59px;
-    animation: shakeme 1.3s cubic-bezier(.36, .07, .19, .97) infinite ;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    perspective: 1000px;
+  min-width: 150px;
+  background: #f0b136d1;
+  font-weight: 600;
+  color: white;
+  border: 0;
+  font-size: 24px;
+  border-radius: 8px;
+  margin-top: 100px;
+  animation: shakeme 1s 1 cubic-bezier(.36, .07, .19, .97);
+  animation-delay: 4s;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
+
 
 @keyframes shakeme {
 
-    10%, 90% {
-      transform: translate3d(-1px, 0, 0);
-    }
-    
-    20%, 80% {
-      transform: translate3d(2px, 0, 0);
-    }
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
 
-    30%, 50%, 70% {
-      transform: translate3d(-4px, 0, 0);
-    }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
 
-    40%, 60% {
-      transform: translate3d(4px, 0, 0);
-    }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
 
 

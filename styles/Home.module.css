@@ -245,6 +245,35 @@
   }
 
 }
+@media screen and (max-width: 375px) {
+
+  .info{
+    width: 80vw;
+  }
+
+  .info h1 {
+    font-size: 4.4rem;
+    margin-bottom: 3.1rem;
+    text-align: center;
+  }
+
+  .info h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .description {
+    padding: 0.8rem;
+  }
+
+  .description p {
+    line-height: 1.2rem;
+    font-size: 1rem;
+  }
+
+}
+
+
 
 
 

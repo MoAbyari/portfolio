@@ -13,6 +13,7 @@ export default function Home() {
   const scrollToContact = () => {
     document.getElementById("contactMe").scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
+  
   return (
     <div>
      <Nav />
@@ -20,9 +21,6 @@ export default function Home() {
         <div className={styles.background}>
           <div className={styles.content}>
             <div className={styles.info}>
-              {/* <h1 className= {styles.hello}>
-                HELLO
-              </h1> */}
               <h1>
                 MO ABYARI
               </h1>

@@ -12,7 +12,7 @@ export const Projects = (props) => {
            <div className= {style.projectsContainer}>
                 <div className={style.topCards}>
                     <Project
-                        title="Sweat & Sweat"
+                        title="Sweet & Sweat"
                         img1="/SS1.png"
                         img2="/SS2.png"
                         schedule="14 August  - 20 August"
