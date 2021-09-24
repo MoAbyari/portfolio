@@ -5,7 +5,6 @@ import { CgLink } from 'react-icons/cg';
 export const Project = (props) => {
     const {
         title,
-        schedule,
         description,
         img1,
         img2,
@@ -21,9 +20,6 @@ export const Project = (props) => {
                     <h2>
                         {title}
                     </h2>
-                    <span>
-                        {schedule}
-                    </span>
                     <p>
                         {description}
                     </p>

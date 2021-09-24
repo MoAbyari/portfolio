@@ -15,7 +15,6 @@ export const Projects = (props) => {
                         title="Sweet & Sweat"
                         img1="/SS1.png"
                         img2="/SS2.png"
-                        schedule="14 August  - 20 August"
                         description="This project was inspired by the current lockdown circumstances where people are isolated inside and might not have enough motivation to get out there and exercise! We created an activity-based dating app to light that fire in their hearts."
                         tech="Firebase ᭼ React JS ᭼ CSS ᭼ AntDesign"
                         href1="https://github.com/MoAbyari/Sweet-Sweat"
@@ -24,10 +23,9 @@ export const Projects = (props) => {
 
                     <Project
                         title="CovInfo"
-                        schedule="4 September - 10 September"
                         img1="/Cov1.png"
                         img2="/Cov2.png"
-                        description="Single Page App to Track Covid-19 Situation In NSW. We have used NSW government APIs for data accuracy, and visuals them by Charts and Mapbox."
+                        description="Single page app to track NSW Covid-19 stats. NSW government APIs and GeoJson are used to fetch data, and are vidualised using Chartjs and Mapbox."
                         tech="Node JS ᭼ Express JS ᭼ Vue JS ᭼ Mapbox ᭼ CSS ᭼ Semantic UI"
                         href1="https://github.com/MoAbyari/Cov-Info"
                         href2="https://cov-info-app.herokuapp.com/"
@@ -37,7 +35,6 @@ export const Projects = (props) => {
                 <div className={style.bottomCards}>
                     <Project 
                         title="SamplEast" 
-                        schedule= "24 July - 30 July"
                         img1="SamplEast.png"
                         img2="Sampleast2.png"
                         description="SamplEast is where you can access unlimited musical samples and loops from eastern ancient. Please signup to download loops and samples, and get access to instruments and artists bio."
@@ -47,7 +44,6 @@ export const Projects = (props) => {
                         />
                     <Project 
                         title="Tic Tac Toe" 
-                        schedule="3 July - 8 July" 
                         img1="/Tik Tac Toe 0.png"
                         img2="/Tik Tac Toe 1.png"
                         description="Classic Tic Tac Toe: 3x3 gameboard for 2 players, this is my very first web app."
